@@ -3,7 +3,7 @@
 #
 include_guard(GLOBAL)
 
-set(BOOST_VERSION 1.86)
+set(BOOST_VERSION 1.87)
 set(BOOST_COMPONENTS
         filesystem
         locale
@@ -39,9 +39,9 @@ if(NOT Boost_FOUND)
     set(BOOST_INCLUDE_LIBRARIES
             ${BOOST_COMPONENTS})
     set(BOOST_URL
-            "https://github.com/boostorg/boost/releases/download/boost-1.86.0/boost-1.86.0-cmake.tar.xz")
+            "https://github.com/boostorg/boost/releases/download/boost-1.87.0/boost-1.87.0-cmake.tar.xz")
     set(BOOST_HASH
-            "MD5=D02759931CEDC02ADED80402906C5EB6")
+            "MD5=D55D43218E81CA3D0FC14436B7665BF1")
 
     if(CMAKE_VERSION VERSION_LESS "3.24.0")
         FetchContent_Declare(
